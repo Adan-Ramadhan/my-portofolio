@@ -1,5 +1,8 @@
 import Oasisteknik from "../asset/oasisteknik.png";
 import Portalines from "../asset/portalines.png"
+import Ssa from "../asset/ssa.png"
+import Chemweekits from "../asset/chemweekits.png"
+import Wordpress from "../asset/wordpress.png"
 const ProjectPage = () => {
   return (
     <div className="w-full h-screen">
@@ -11,6 +14,9 @@ const ProjectPage = () => {
             <div className="p-3">
               <h1 className="font-bold ">Oasisteknik</h1>
               <p >Company Profile</p>
+              <div className="flex justify-end">
+                <img src={Wordpress} width="35px" />
+              </div>
             </div>
           </a>
           <a href="portalines.com" className="border-2 rounded-md hover:scale-105 duration-150">
@@ -18,13 +24,29 @@ const ProjectPage = () => {
             <div className="p-3">
               <h1 className="font-bold">Portalines</h1>
               <p>Portal Berita</p>
+              <div className="flex justify-end">
+                <img src={Wordpress} width="35px" />
+              </div>
             </div>
           </a>
-          <a href="oasisteknik.com" className="border-2 rounded-md hover:scale-105 duration-150">
-            <img src={Oasisteknik} />
+          <a href="ssacrane.com" className="border-2 rounded-md hover:scale-105 duration-150">
+            <img src={Ssa} />
             <div className="p-3">
-              <h1 className="font-bold">Oasisteknik</h1>
-              <p>Portal Berita</p>
+              <h1 className="font-bold">SSA Crane</h1>
+              <p>Company Profile</p>
+              <div className="flex justify-end">
+                <img src={Wordpress} width="35px" />
+              </div>
+            </div>
+          </a>
+          <a href="ssacrane.com" className="border-2 rounded-md hover:scale-105 duration-150">
+            <img src={Chemweekits} />
+            <div className="p-3">
+              <h1 className="font-bold">Chemweekits</h1>
+              <p>Company Profile</p>
+              <div className="flex justify-end">
+                <img src={Wordpress} width="35px" />
+              </div>
             </div>
           </a>
         

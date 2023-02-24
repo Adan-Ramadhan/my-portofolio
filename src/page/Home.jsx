@@ -18,7 +18,7 @@ const Home = () => {
             </p>
             <div className="w-full flex place-content-center space-x-5 mt-3">
               <button className="bg-sky-700 hover:bg-sky-900 p-2 text-white rounded">
-                See All Sertifikat
+                See All Certificate
               </button>
               <button className="bg-sky-700 hover:bg-sky-900 p-2 text-white rounded">
                 See All Project
