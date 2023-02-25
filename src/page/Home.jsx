@@ -17,12 +17,12 @@ const Home = () => {
               Front End Development
             </p>
             <div className="w-full flex place-content-center space-x-5 mt-3">
-              <button className="bg-sky-700 hover:bg-sky-900 p-2 text-white rounded">
+              <a href="/certificate"  className="bg-sky-700 hover:bg-sky-900 p-2 text-white rounded">
                 See All Certificate
-              </button>
-              <button className="bg-sky-700 hover:bg-sky-900 p-2 text-white rounded">
+              </a>
+              <a href="/project" className="bg-sky-700 hover:bg-sky-900 p-2 text-white rounded">
                 See All Project
-              </button>
+              </a>
             </div>
           </div>
           <div className="mt-36 font-bold">
