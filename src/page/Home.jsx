@@ -1,6 +1,17 @@
 import Profile from "../asset/profile.jpg";
 import Neko from "../asset/neko.png";
+import Loading from "../component/Loading";
+import { useState } from "react";
+
 const Home = () => {
+
+  const [isLoading, setIsLoading] = useState(false)
+
+
+ 
+
+
+
   return (
     <div className="w-full min-h-screen bg-gradient-to-br from-sky-900 to-white">
     <div
